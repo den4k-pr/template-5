@@ -13,8 +13,9 @@ margin-top: 1.6rem;
 .c5-wrapper{
     background-image: url(../../images-2/vl/c5-bg.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     height: 91rem;
+    
     padding-top: 50.1rem;
     margin-top: 5rem;
 }
