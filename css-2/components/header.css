@@ -181,10 +181,15 @@ header {
   color: white;
   font-size: 25px;
   font-weight: 700;
+  max-width: 300px;
+  margin-left: -20px;
   text-align: center;
   line-height: 1.2;
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes spin {

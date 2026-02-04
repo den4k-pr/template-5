@@ -7,15 +7,16 @@
     gap: 0.8rem;
     background-image: url(../../images-2/c4-bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 43.6rem;
-    padding-left: 5.2rem;
+    background-size: 100% 100%;
+    height: 45.6rem;
     padding-top: 22.8rem;
     margin-top: 5.2rem;
 }
 .c4-item{
     display: flex;
     gap: 1.5rem;
+    margin: 0 auto;
+    min-width: 240px !important;
     align-items: center;
 }
 .c4-svg-box{
