@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Paytone+One&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Unbounded:wght@200..900&display=swap');
+
 header {
     padding-bottom: 3.2rem;
     padding-top: 33.3rem;
@@ -70,6 +72,7 @@ header {
     line-height: 100%;
     letter-spacing: -0.06em;
     text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     color: #d70e0e;
     font-weight: 430;
@@ -85,7 +88,7 @@ header {
         gap: 0.3rem;
     }
     .price-old p{
-    font-family: var(--font-family);
+   font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 3rem;
     line-height: 100%;
@@ -145,6 +148,7 @@ header {
 .snowflake_price2,
 .snowflake_price{
     transform: rotate(6deg);
+    font-family: "Montserrat", sans-serif;
 }
 
 .snowflake_price{
@@ -153,7 +157,7 @@ header {
 .snowflake_price2{
     margin-left: 15px;
     margin-bottom: 10px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .snowflake span {
@@ -163,7 +167,7 @@ header {
 
 .snowflake_price {
   color: #d60000;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 28px;
 }
 
