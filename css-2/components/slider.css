@@ -1,0 +1,211 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+.slides {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+.slider-wrapper{
+    width: 100%;
+}
+.slide {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+.slide-play{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.2rem;
+    background: rgb(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slide img {
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.prev, .next {
+    position: relative;
+    transform: translateY(-50%);
+    background-image: url(../../images-2/slider-arrow.png);
+    background-repeat: no-repeat;
+    width: 7rem;
+    height: 7rem;
+    border: none;
+    cursor: pointer;
+        background-size: contain;
+}
+.slider button{
+    background-color: unset;
+}
+.slider-button-wrap{
+    display: flex;
+    justify-content:space-between;
+    gap: 3rem;
+    margin-top: 4.7rem;
+}
+.prev { 
+    background-image: url(../../images-2/slider-arrow2.svg);
+}
+.indicators {
+    position: relative;
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    max-width: 54%;
+}
+.indicator {
+    width: 5rem;
+    height: 0.2rem;
+    background: #424242;
+    cursor: pointer;
+}
+.indicator.active {
+    background: #fff;
+    width: 5rem;
+}
+.slider-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 143%;
+color: #fff;
+}
+
+.slider-text-div {
+    display: flex;
+    padding: 0rem 8rem 3rem 8rem;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.gradient{
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-26rem);
+    width: 42.1rem !important;
+}
+.slick-dots {
+    display: flex !important;
+    bottom: -5.5rem !important;
+    width: 16.2rem !important;
+    left: 4rem;
+}
+.slick-dots li button:before {
+    color: #595959!important;
+    font-size: 0.8rem !important;
+    opacity: 1 !important;
+    
+}
+.slick-dots li.slick-active button:before{
+    -webkit-text-stroke: 2px #6abcb7;
+    opacity: 1 !important;
+}
+.subslider{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 5.3rem;
+    margin-bottom: 4.8rem;
+}
+.slick-dots li{
+    margin: 0 !important;
+}
+.slider-circle {
+    width: 6.5rem; /* 80px */
+    height: 6.5rem; /* 80px */
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #fff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    padding-left: 0.3rem;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.slider-circle:hover {
+    background: #0EC4A2;
+}
+
+.slider2 {
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+}
+.slides2 {
+    display: flex;
+    gap: 1rem;
+    width: 39rem;
+    transition: transform 0.5s ease-in-out;
+}
+.slider-wrapper2{
+    width: 100%;
+}
+.slide2 {
+    display: flex;
+    flex: 0 0 90%;
+    justify-content: center;
+    position: relative;
+    flex-shrink: 0;
+}
+.slide-play{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.2rem;
+    background: rgb(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slide2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.slider-button-wrap{
+    display: flex;
+    justify-content:space-between;
+    gap: 3rem;
+    margin-top: 4.7rem;
+}
+.prev2 { 
+    background-image: url(../../images-2/slider-arrow2.svg);
+}
+.indicator-dot{
+        width: 5rem;
+    height: 0.2rem;
+    background: #424242;
+    cursor: pointer;
+}
+.indicator-dot.active{
+           background: #fff;
+    width: 5rem;
+}

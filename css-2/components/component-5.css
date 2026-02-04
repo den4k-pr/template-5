@@ -1,0 +1,53 @@
+.c5{
+
+}
+.c5-second-title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+text-align: center;
+color: #fff;
+margin-top: 1.6rem;
+}
+.c5-wrapper{
+    background-image: url(../../images-2/vl/c5-bg.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 91rem;
+    padding-top: 50.1rem;
+    margin-top: 5rem;
+}
+.c5-wrapper h2{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 2rem;
+line-height: 100%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+margin-bottom: 4.8rem;
+}
+.c5-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+.c5-item{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.c5-item img{
+    width: 10.4rem;
+    height: 8.8rem;
+}
+.c5-item p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 125%;
+text-transform: uppercase;
+color: #fff;
+}

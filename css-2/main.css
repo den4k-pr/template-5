@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --second-family: "Helvetica Neue", sans-serif;
+    --font-family: "General Sans", sans-serif;
+    --third-family: "Bebas Neue", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+a {
+    display: contents;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 400 2.3364485981vw/1.33 var(--font-family), sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #fff;
+}
+
+
+@media (min-width: 428px) {
+    html {
+        font: 400 10px var(--font-family), sans-serif;
+    }
+
+    body {}
+}
+
+body {
+    background: #000;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 143%;
+    max-width: 428px;
+}
+
+h1 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 11rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding-top: 8rem;
+}
+
+.header-price-wrap_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.items div {
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136%;
+    /* 17.68px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin: 0 2.5px;
+}
+
+.items {
+    align-items: center;
+    justify-content: center;
+    margin-top: -32rem;
+    margin-bottom: 29rem;
+
+}
+
+.items div:first-child {
+    background: linear-gradient(180deg, #eb3e27 0%, #ac1212 100%);
+    color: #fff;
+    width: 180px;
+    text-align: center;
+    z-index: 9;
+}
+
+.items div:last-child {
+    color: #000;
+    padding-left: 32px;
+    margin-left: -35px;
+    z-index: 8;
+}
+
+.items+p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin: 0 auto;
+}
+
+.link {
+    opacity: 0;
+    padding-top: 24rem;
+    margin-left: 3rem;
+    border: solid;
+    width: 12rem;
+    margin-top: -25rem;
+}
+
+.full-width {
+    margin-left: -4.6rem;
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+    width: calc(100% + 9.2rem);
+}
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 143%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #626262;
+}
+
+.btn-link {
+    display: inline-block;
+    width: 100%;
+    /* height: 9.5rem; */
+    margin: 0 auto;
+}
+
+.btn {
+    width: 100%;
+    height: 8.8rem;
+    position: relative;
+    display: block;
+}
+
+.btn img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.btn p {
+    position: relative;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 138%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b7950;
+}
+
+.btn1 {
+    margin: 1rem 0 7.2rem 0;
+}
+
+.underline {
+    text-decoration-line: underline !important;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.accent {
+    font-weight: 600;
+}
+
+#shadow-host-companion {
+    padding: 0 !important;
+}
+
+.bg1 {
+    background-image: url(../images-2/bg1.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.bg2 {
+    background-image: url(../images-2/bg2.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.fixed-btn {
+    z-index: 10;
+    position: fixed;
+    bottom: -0.3rem;
+    transform: translate(-50%);
+    left: 50%;
+    width: 100%;
+    padding: 1.7rem 2.4rem 2rem 2.4rem;
+    max-width: 428px;
+    transition: 0.3s ease-out;
+    opacity: 0;
+    background-image: url(../images-2/fixed-btn-bg.png);
+    height: 14.8rem;
+    background-size: contain;
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+}
+
+.num-fix {
+    border-radius: 0.5rem;
+    width: 8.7rem;
+    height: 3rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--third-family);
+    font-size: 2.4rem;
+}
+
+.timer-name {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 180%;
+    text-align: center;
+    color: #7d7d7d;
+    text-transform: lowercase;
+}
+
+
+.contacts {
+    background-image: url(../images-2/contacts.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30px;
+    margin-bottom: 200px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.c-hr{
+    width: 130px;
+    height: 125px;
+    right: -42px;
+    top: -50px;
+    position: absolute;
+    object-fit: contain;
+}
+
+.c-hl{
+    width: 130px;
+    height: 125px;
+    left: -33px;
+    bottom: -27px;
+    position: absolute;
+    object-fit: contain;
+}
+
+.contacts-title {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 80%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    color: #fff;
+    text-shadow: 0 22px 17px rgba(0, 0, 0, 0.6);
+}
+
+.contacts-title span {
+    color: #f00;
+    text-shadow: 0 22px 17px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contacts-subTitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.contacts-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.contacts-nav a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    gap: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-nav a img {
+    width: 12px;
+    height: 12px;
+}
+
+.suport {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: #cacaca;
+    text-align: center;
+}
+
+.privacy {
+    font-weight: 400;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 179%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #cacaca;
+}
+
+
+.foot_text {
+    font-size: 20px;
+}
+
+.small_ft p {
+    font-size: 10px;
+}
+
+.nw-footerButton {
+    border-radius: 130px;
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 65px;
+    background: linear-gradient(90deg, #f00 0%, #cc1313 100%);
+}
+
+.nw-footerButton p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 132%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.nw-footerButton span {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 290%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+
+.nw-footer {
+
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    transform: translateY(150px);
+    width: 100%;
+    transition: all .5s ease;
+}
+
+.nw-footer-bg {
+    background-image: url(../images-2/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 12px 0;
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nw-footer.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.nw-footer-timer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 5px;
+}
+
+.nw-footer-timer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.nw-footer-timer-value {
+    border-radius: 150px;
+    width: 67px;
+    height: 38px;
+    background-color: #fff;
+    color: #000;
+    font-family: "League Gothic", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 117%;
+    text-align: center;
+}
+
+.nw-footer-timer-time {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+
+.nw-footer_text {
+    padding-top: 1.6rem;
+}

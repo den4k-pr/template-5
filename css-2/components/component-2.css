@@ -1,0 +1,152 @@
+.c2 {
+
+}
+.c2-wrapper{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    
+
+}
+.c2-item{
+    width: 18.5rem;
+    height: 18.5rem;
+    background-image: url(../../images-2/c2-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2.77rem 0rem 0rem 2.34rem;
+}
+.c2-item_text{
+    padding-top: 12rem;
+    font-size: 1rem;
+}
+
+.c2-item:nth-child(2){
+    background-image: url(../../images-2/c2-2.png);
+}
+.c2-item p{
+    font-family: var(--second-family);
+font-weight: 300;
+font-size: 2.5rem;
+line-height: 100%;
+text-transform: uppercase;
+color: #fff;
+}
+.c2-circle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 34%;
+    width: 6rem;
+    height: 6rem;
+    background-image: url(../../images-2/c2-circle.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2-access{
+    display: flex;
+    gap: 1.8rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.c2-access p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 2.5rem;
+line-height: 220%;
+text-align: center;
+color: #fff;
+}
+.c2-guarantee{
+    width: 37.9rem;
+    height: 12.5rem;
+    padding: 2.1rem 3.6rem 3.9rem 11rem;
+    background-image: url(../../images-2/vl/c2-guarantee.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 2.4rem;
+line-height: 108%;
+text-transform: uppercase;
+color: #fff;
+margin-top: 3rem;
+}
+.c2-guarantee_text{
+font-weight: 400;
+font-size: 15px;
+line-height: 131%;
+text-transform: uppercase;
+color: #fff;
+margin-top: -4rem;
+line-height: 1;
+margin-left: 11rem;
+}
+.table_2 {
+    width: 100%; /* Таблица занимает всю доступную ширину */
+    max-width: 1200px; /* Ограничение максимальной ширины */
+    margin: 0 auto; /* Центрирование таблицы на странице */
+    border-collapse: collapse; /* Убирает двойные границы */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.table_2 td {
+    vertical-align: top; /* Выравнивание содержимого по верхнему краю */
+    width: 50%; /* Каждая ячейка занимает половину ширины таблицы */
+    box-sizing: border-box; /* Учитывает padding в ширине */
+}
+
+.table_item2 {
+    display: flex; /* Используем flex для выравнивания содержимого */
+    flex-direction: column; /* Элементы внутри ячейки располагаются вертикально */
+    align-items: center; /* Выравнивание по центру по горизонтали */
+    text-align: center; /* Текст выравнивается по центру */
+    margin-top: 2rem;
+}
+
+.table_item2 img {
+    max-width: 100%; 
+    max-height: 124px; 
+
+}
+.table_item2 video {
+    max-width: 100%; 
+    max-height: 124px; 
+
+}
+.blue_p {
+    text-transform:uppercase;
+    text-align: center;
+    color: #0EC4A2;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.items2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.items2 div {
+    width: 65%;
+}
+.items2 div .tit {
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #0EC4A2;
+}
+.items2 img {
+    height: 100%;
+    width: 30%;
+    transform: scale(1.2);
+
+}
